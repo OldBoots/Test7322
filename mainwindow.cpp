@@ -10,7 +10,7 @@ MainWindow::MainWindow(QWidget *parent)
     QGraphicsScene *scene = new QGraphicsScene;
     QGraphicsRectItem *rect = new QGraphicsRectItem;
     scene->setSceneRect(0,0,500,500);
-    rect->setBrush(Qt::blue);
+    rect->setBrush(Qt::red);
     rect->setRect(0,0,150,150);
     scene->addItem(rect);
     ui->graphicsView->setScene(scene);
